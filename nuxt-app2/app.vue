@@ -120,14 +120,10 @@ main > h1 {
 .card.adult {
   border-top-color: orange;
 }
-.card:hover {
-}
 .info {
   padding: 1rem;
   text-align: center;
   font-size: 1.3rem;
-}
-.name {
 }
 .age {
   font-weight: 300;
