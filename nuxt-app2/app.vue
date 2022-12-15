@@ -11,13 +11,6 @@
           adult: currentYear - person.birthday >= 18,
         }"
       >
-        <!--v tomto prípade clase priradíme objekt, ktorého vlastnosti 
-		  predstavujú jednotlivé triedy a ich hodnoti predstavujú bool 
-		  vyjadrujúci, kedy sa má daná trieda pridať danému elemntu-->
-        <!--alebo takto tu to poriešime ternárnym operátorom...
-		<section v-for="person of persons" v-bind:key="person" 
-		v-bind:class="person.age>=18 ? 'adult card-container card' : 'card-container card'">
-		-->
         <article class="info">
           <div class="name">{{ person.fname }} {{ person.lname }}</div>
           <div class="age">
